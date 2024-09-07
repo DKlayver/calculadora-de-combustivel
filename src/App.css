@@ -1,0 +1,45 @@
+body{
+  margin: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(40,44,52,255);
+  color: #ffffff;;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+  gap: 10px;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255,210,59,255);
+}
+
+img{
+  height: 36vh;
+}
+
+input {
+  border-radius: 10px;
+  outline: none;
+  width: 32vw;
+  height: 4vh;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: rgba(255,210,59,255);
+  width: 25vw;
+  height: 4vh;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: large;
+}
